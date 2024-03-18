@@ -1,0 +1,572 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1709749028354539, "dur": 672735, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749028354789, "dur": 13734, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749028368525, "dur": 31367, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749028399894, "dur": 238700, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749028638596, "dur": 375117, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749029013715, "dur": 13558, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749029027757, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1709749028518863, "dur": 104461, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709749028519665, "dur": 36388, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709749028605932, "dur": 4850, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709749028610786, "dur": 12532, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709749028611375, "dur": 11092, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709749028626800, "dur": 1024, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1709749028626172, "dur": 1670, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749029027896, "dur": 240, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1709749028665295, "dur":995, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028666292, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1709749028666340, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1709749028666352, "dur":436, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1709749028666817, "dur":512, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028667329, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993225, "dur":238, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993463, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993472, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993474, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993478, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993480, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993485, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993487, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993492, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993494, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993497, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993499, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993503, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993504, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993508, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993510, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993515, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993516, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993520, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993521, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993526, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993527, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993531, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993533, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993537, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993555, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028993561, "dur":1551, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1709749028666852, "dur":483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028667336, "dur":4356, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028671703, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709749028671709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028673253, "dur":300, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709749028673555, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709749028673610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028673869, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1709749028675676, "dur":1241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1709749028676919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028676924, "dur":5254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1709749028682230, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028682444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028691107, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028692387, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028692574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028692633, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028693797, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028693935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028693939, "dur":8141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028702136, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028702450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028702456, "dur":7284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028709787, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028709934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028709940, "dur":3947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028713929, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028714101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028714107, "dur":4889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028719033, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028719174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028719179, "dur":7581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028726810, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028726996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028727000, "dur":8319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028735369, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028735644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028735650, "dur":4553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028740238, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028740432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028740436, "dur":7049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028747532, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028747720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028747725, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028749072, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028749471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028749478, "dur":5681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1709749028755231, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1709749028755286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028755291, "dur":8638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":1, "ts":1709749028763968, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709749028764002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028764006, "dur":9284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709749028773359, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1709749028773474, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028773496, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1709749028776547, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709749028776611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1709749028776616, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1709749028777984, "dur":215238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028666883, "dur":461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028667344, "dur":4351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028671704, "dur":2930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709749028674637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028674708, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1709749028677041, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709749028677498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028677501, "dur":4936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID.exe" }}
+,{ "pid":12345, "tid":2, "ts":1709749028682472, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028682623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028691114, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028692427, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028692575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028692579, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028693793, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028693921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028693925, "dur":8070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028702032, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028702192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028702196, "dur":7203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028709454, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028709630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028709636, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028713459, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028713734, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028713741, "dur":4681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028718467, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028718783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028718790, "dur":7550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028726388, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028726556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028726560, "dur":2791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028729383, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028729510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028729529, "dur":10027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028739602, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028739917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028739921, "dur":7541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028747525, "dur":2059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028749588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028749594, "dur":6249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1709749028755920, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709749028756001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028756006, "dur":7136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1709749028763192, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709749028763244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028763284, "dur":12172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1709749028775526, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1709749028775588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1709749028775593, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1709749028777607, "dur":215624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709749028666875, "dur":464, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709749028667339, "dur":4358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709749028671702, "dur":790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1709749028672495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709749028673315, "dur":3239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1709749028676605, "dur":123683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709749028800292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1709749028800379, "dur":3026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1709749028803444, "dur":189791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028666910, "dur":437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028667347, "dur":4351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028671703, "dur":2903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1709749028674608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028674701, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1709749028677016, "dur":42363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1709749028719381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028719385, "dur":5641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1709749028725077, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028725312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028725318, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028727195, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028727383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028727408, "dur":11560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028739022, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028739500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028739537, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028745400, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028745629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028745635, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028747988, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028748354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028748360, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1709749028749788, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1709749028749842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028749847, "dur":5492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1709749028755392, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1709749028755449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028755454, "dur":10326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1709749028765828, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1709749028765882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028765887, "dur":8078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1709749028773997, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1709749028774031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1709749028774034, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1709749028777249, "dur":215972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028666941, "dur":410, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028667351, "dur":4342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028671703, "dur":2101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1709749028673808, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028674023, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1709749028675610, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1709749028675760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028675971, "dur":4658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1709749028680676, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028680832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028682066, "dur":9744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028691866, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028692034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028692039, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028693100, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028693267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028693273, "dur":8078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028701421, "dur":1087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028702510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028702515, "dur":7621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028710176, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028710358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028710364, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028714444, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028714619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028714626, "dur":10697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028725396, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028725731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028725739, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028727235, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028727406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028727411, "dur":11178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028738633, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028738824, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028738830, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028740234, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028740429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028740433, "dur":6981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028747472, "dur":2542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028750016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028750021, "dur":12591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1709749028762690, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1709749028762770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028762776, "dur":5603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1709749028768420, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1709749028768468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028768475, "dur":5157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level5" }}
+,{ "pid":12345, "tid":5, "ts":1709749028773690, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1709749028773747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028773797, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1709749028777066, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1709749028777248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1709749028777254, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1709749028778143, "dur":215094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028666965, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028667356, "dur":4345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028671702, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1709749028671866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028673299, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1709749028676078, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1709749028676185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028676191, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1709749028677780, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028677928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028682012, "dur":9547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028691606, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028691876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028691907, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028693278, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028693445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028693449, "dur":8196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028701691, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028702033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028702038, "dur":7250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028709323, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028709562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028709568, "dur":4105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028713721, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028714001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028714007, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028719015, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028719161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028719166, "dur":7377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028726591, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028726760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028726765, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028729375, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028729512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028729532, "dur":10004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028739597, "dur":2021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028741621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028741627, "dur":7507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028749181, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028749372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028749377, "dur":5391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1709749028754841, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1709749028754896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028754901, "dur":10846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1709749028765807, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1709749028765995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028765999, "dur":7608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1709749028773660, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1709749028773723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028773728, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1709749028776883, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1709749028776937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1709749028776941, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1709749028778045, "dur":215180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028666985, "dur":374, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028667360, "dur":4341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028671703, "dur":2348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1709749028674054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028674066, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1709749028675592, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1709749028676711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028676719, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1709749028680573, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028680741, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028682034, "dur":9874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028691944, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028692089, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028692093, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028693267, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028693462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028693468, "dur":8255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028701759, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028701886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028701892, "dur":6981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028708915, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028709060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028709082, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028710154, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028710308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028710312, "dur":4668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028715027, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028715202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028715208, "dur":10697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028725945, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028726085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028726091, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028727627, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028727772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028727776, "dur":11755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028739579, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028739812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028739819, "dur":7283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028747161, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028747850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028747856, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1709749028749343, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1709749028749397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028749538, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1709749028755011, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1709749028755082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028755088, "dur":10733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1709749028765894, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1709749028765959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028765965, "dur":9500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1709749028775527, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1709749028775571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1709749028775575, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1709749028777578, "dur":215642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028667009, "dur":354, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028667363, "dur":4331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028671704, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1709749028671867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028673571, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1709749028676222, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1709749028676335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028676341, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1709749028678853, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028678971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028682037, "dur":9968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028692057, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028692193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028692198, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028693579, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028693708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028693712, "dur":8371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028702122, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028702263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028702268, "dur":7061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028709377, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028709568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028709574, "dur":1277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028710881, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028710996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028711012, "dur":3898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028714958, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028715134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028715138, "dur":10807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028725992, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028726159, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028726165, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028727613, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028727777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028727781, "dur":11763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028739600, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028739806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028739811, "dur":7232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028747100, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028747294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028747300, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028748648, "dur":2940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028751591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028751595, "dur":12401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1709749028764039, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1709749028764182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028764188, "dur":9490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1709749028773735, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1709749028773794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1709749028773799, "dur":3394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1709749028777260, "dur":215966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028667030, "dur":337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028667367, "dur":4333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028671704, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1709749028671865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028673481, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1709749028675810, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1709749028675908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028676023, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1709749028680653, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028680785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028682048, "dur":9802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028691898, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028692095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028692101, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028693505, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028693726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028693743, "dur":8360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028702146, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028702324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028702328, "dur":7463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028709840, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028709980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028709983, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028713839, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028714117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028714121, "dur":4796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028718952, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028719091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028719095, "dur":7202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028726345, "dur":1084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028727431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028727435, "dur":12232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028739718, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028740105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028740110, "dur":7372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028747565, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028749002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028749008, "dur":5611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1709749028754668, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1709749028754770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028754779, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1709749028756857, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1709749028756991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028757002, "dur":9155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":9, "ts":1709749028766194, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709749028766259, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028766264, "dur":7537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level5.resS" }}
+,{ "pid":12345, "tid":9, "ts":1709749028773860, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1709749028773907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1709749028773913, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1709749028777586, "dur":215643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028667068, "dur":303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028667371, "dur":4344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028671715, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1709749028671878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028673335, "dur":2878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1709749028676265, "dur":31331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028707599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028707869, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028709561, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028709736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028709743, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028713602, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028713928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028713933, "dur":4570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028718611, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028718868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028718873, "dur":7850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028726766, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028726940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028726945, "dur":8389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028735388, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028735795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028735799, "dur":4346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028740201, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028740798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028740802, "dur":7497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028748349, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028748603, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028748608, "dur":5210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1709749028753899, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":10, "ts":1709749028753996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028754003, "dur":9069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":10, "ts":1709749028763125, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1709749028763168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028763173, "dur":6333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":10, "ts":1709749028769569, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1709749028769630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028769641, "dur":6179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1709749028775852, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1709749028775904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1709749028775908, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1709749028777409, "dur":215824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709749028667089, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709749028667375, "dur":4324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709749028671703, "dur":959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1709749028672665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709749028673305, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1709749028676684, "dur":306422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709749028983111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1709749028983118, "dur":10029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1709749028993192, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1709749028993194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028667108, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028667378, "dur":4334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028671712, "dur":1194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1709749028672908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028673331, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1709749028675515, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1709749028675599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028676045, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1709749028677777, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1709749028677875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028681962, "dur":28119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1709749028710131, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028710307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028710311, "dur":4258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028714604, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028714723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028714727, "dur":10342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028725117, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028725322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028725332, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028727270, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028727512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028727516, "dur":11410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028738962, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028739195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028739203, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028741682, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028741836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028741841, "dur":6035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028747928, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028748204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028748209, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1709749028749559, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":12, "ts":1709749028749602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028749605, "dur":5399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":12, "ts":1709749028755069, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1709749028755129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028755135, "dur":7485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1709749028762689, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1709749028762759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1709749028762770, "dur":18110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Equipo/Desktop/Juego Para Diseo de VIdeojuegos 2/Juego con Principios SOLID_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1709749028780915, "dur":212308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1709749028996358, "dur":1745, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1709749029028198, "dur": 710, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1709749029027743, "dur": 1186, "ph": "X", "name": "Write chrome-trace events", "args": {} },
